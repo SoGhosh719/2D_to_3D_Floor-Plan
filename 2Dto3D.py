@@ -5,7 +5,7 @@ import argparse
 
 # --- 🛠 Command Line Argument Parsing ---
 parser = argparse.ArgumentParser(description="Convert 2D floor plan to 3D model")
-parser.add_argument("--input", type=str, default="floor_plan.png", help="Input floor plan image")
+parser.add_argument("--input", type=str, default="floor_plan.jpg", help="Input floor plan image")
 parser.add_argument("--output", type=str, default="floor_plan_3D", help="Output filename without extension")
 args = parser.parse_args()
 
